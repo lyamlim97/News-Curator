@@ -118,7 +118,7 @@ subjectHead = 'News for the day ' + d8
 
 # Sending email
 message = Mail(
-    from_email='mail@yasserzaheer.com',
+    from_email='liamlim97@gmail.com',
     to_emails='lyamlim97@gmail.com',
     subject=subjectHead,
     html_content=msg)
