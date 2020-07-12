@@ -29,7 +29,6 @@ SENDGRID_API_KEY = os.environ.get('SENDGRID_API_KEY')
 
 # URL of news site used
 url = 'https://www.theverge.com'
-
 response = requests.get(url)
 content = BeautifulSoup(response.content, 'lxml')
 
